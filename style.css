@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: #639fff;
+    color: white;
+     display: grid; 
+    place-items: center;
+
+    /* Display: grid + place-items: center - servem para centralizar o elemento na tela */
+}
+
+h1{
+    font-size: 35px;
+}
+
+#numero{
+    font-size: 100px;
+}
+
+.container{
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonNumero{
+    background-color: #008CBA;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.buttonNumero:hover{
+    background: #016ABC;
+    color: #fff;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #eee;
+    text-shadow:none;
+}
